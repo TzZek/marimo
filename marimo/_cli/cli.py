@@ -193,6 +193,10 @@ main_help_msg = "\n".join(
                     "create or edit a notebook called notebook.py",
                 ),
                 (
+                    "marimo edit https://gist.github.com/user/abc123",
+                    "edit a GitHub Gist",
+                ),
+                (
                     "marimo run notebook.py",
                     "run a notebook as a read-only app",
                 ),
@@ -320,6 +324,10 @@ edit_help_msg = "\n".join(
                     "Start the marimo notebook server",
                 ),
                 ("marimo edit notebook.py", "Create or edit notebook.py"),
+                (
+                    "marimo edit https://gist.github.com/user/abc123",
+                    "Edit a GitHub Gist",
+                ),
             ]
         ),
     ]
